@@ -30,12 +30,25 @@ body {
 	margin: auto;
 }
 
-.contentText {
+.bottomText {
 	width: 150px;
 	height: 200px;
 	padding: 10px;
 	display: inline-block;
 	vertical-align: text-bottom;
+}
+
+.mainContentContainer {
+	width: auto;
+	height: auto;
+	padding: 20px;
+	opacity: 0.8;
+	background-color: #ffffff;
+}
+
+.content {
+	width: 50%;
+	margin: 0 auto;
 }
 
 #headshot {
