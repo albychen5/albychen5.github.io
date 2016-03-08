@@ -143,7 +143,6 @@ a:hover, a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    color: #b784a7;
 }
 
 .intro .intro-body .header-name {
@@ -160,8 +159,8 @@ a:hover, a:focus {
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
+    .intro .intro-body .header-name {
+        font-size: 80px;
     }
 
     .intro .intro-body .intro-text {
