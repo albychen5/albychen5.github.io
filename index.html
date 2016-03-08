@@ -16,6 +16,10 @@
   <!-- Font Awesome Custom Fonts -->
   <!-- TODO: Change for Production, find china-compatible CDNs -->
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+  <!-- Google Fonts that might not work in the future -->
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -28,12 +32,15 @@
 					<i class="fa fa-bars"></i>
 				</button>
 				<a class="navbar-brand page-scroll" href="#page-top">
-					Albert Chen
+					<i class="fa fa-cog fa-spin"></i> ABC
 				</a>
 			</div> <!-- Page Logo -->
 			<!-- Collapse for mobile view -->
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 				<ul class="nav navbar-nav">
+					<li class="hidden">
+            <a href="#page-top"></a>
+          </li>
 					<li>
 						<a class="page-scroll" href="#about">About</a>
 					</li>
@@ -55,7 +62,8 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<h1 class="header-name">Albert Chen</h1>
-						<p class="intro-text">Vagabond, Electrical Engineering,<br>University of California, Los Angeles 2014.<br>Current located in Hangzhou, China</p>
+						<p class="intro-text">Vagabond, Electrical Engineering,<br>University of California, Los Angeles 2014.<br>Currently located in Hangzhou, China
+						</p>
 						<a href="#about" class="btn btn-circle page-scroll">
 							<i class="fa fa-angle-double-down animated"></i>
 						</a>
@@ -70,7 +78,16 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>A little bit about me:</h2>
-				<p>Albert is the best.</p>
+				<p>Originally from the Palo Alto, California in the heart of the Silicon Valley, I moved to Los Angeles to study Electrical Engineering at UCLA. After graduation, I worked at SanDisk Corp. as a Product Engineer on the Inifiniflash Enterprise Solution.</p>
+				<p>One day I woke up and decided that the world was too big to not step outside and explore a little. I left my position and moved to China to start my own startup, bringing my technology and product experience.</p>
+				<p>Outside of all that boring engineering stuff, I enjoy the following:
+					<br>Photography (<a href="http://photographicloyalty.tumblr.com">tumblr here</a>)
+					<br>Homebrewing (Yuan-Chen Brewery)
+					<br>My Soundcloud (on those <a href="https://soundcloud.com/albychen5">remixes</a>)
+				</p>
+			</div>
+		</div>
+	</section>
 
 	<!-- Projects Section -->
 
@@ -78,15 +95,19 @@
 
 	<footer>
 		<div class="container text-center">
-			<p>I like turtles. Made in Hangzhou, China. Updated 03-2016</p>
+			<p>I like turtles. Made in Hangzhou, China. Updated March 2016</p>
 		</div>
 	</footer>
 
 	<!-- Linking JS  -->
-  <script src="js/bootstrap.min.js"></script> <!-- Bootstrap Required JavaScript -->
-  <script src="js/jquery.js"></script> <!-- jQuery -->
-  <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing Plugin -->
-  <script src="js/alby.js"></script> <!-- My own custom JS -->
+	<!-- Bootstrap Required JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- jQuery Easing Plugin -->
+  <script src="js/jquery.easing.min.js"></script>
+  <!-- My own custom JS -->
+  <script src="js/alby.js"></script> 
 
 </body>
 </html>
