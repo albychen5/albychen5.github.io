@@ -160,7 +160,7 @@ a:hover, a:focus {
 @media(min-width:768px) {
     .intro {
         height: 100%;
-        padding: 20;
+        padding: 0;
     }
 
     .intro .intro-body .header-name {
