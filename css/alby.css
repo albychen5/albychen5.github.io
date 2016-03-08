@@ -246,6 +246,10 @@ a:hover, a:focus {
     }
 }
 
+.avatar {
+    padding: 30px;
+}
+
 .content-section {
     padding-top: 100px;
 }
