@@ -34,7 +34,7 @@ p {
 }
 
 a {
-    color: #8066B3;
+    color: #C02942;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -42,7 +42,7 @@ a {
 
 a:hover, a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #542437;
 }
 
 .light {
@@ -289,17 +289,17 @@ a:hover, a:focus {
 }
 
 .btn-default {
-    border: 1px solid #8066B3;
-    color: #8066B3;
+    border: 1px solid #C02942;
+    color: #C02942;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #8066B3;
+    border: 1px solid #C02942;
     outline: 0;
     color: #000;
-    background-color: #8066B3;
+    background-color: #C02942;
 }
 
 ul.banner-social-buttons {
@@ -322,10 +322,6 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
-}
-
-.weixin-title {
-    color: #8066B3;
 }
 
 .fa-weixin {
