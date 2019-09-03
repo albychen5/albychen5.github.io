@@ -1,158 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="albychen5's personal website.">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Albert Chen</title>
-  <!-- Bootstrap CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/alby.css" rel="stylesheet">
-
-  <!-- Font Awesome Custom Fonts -->
-  <!-- TODO: Change for Production, find china-compatible CDNs -->
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-
-  <!-- Google Fonts that might not work in the future -->
-  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./css/alby.css" />
 </head>
+<body>
+  <div className="unit">
+    <header>
+      <h1>Albert Chen</h1>
+      <p>
+        <span>Product Manager @ Instagram</span>
+      </p>
+    </header>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-	<!-- Navigation Bar -->
-	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-					<i class="fa fa-bars"></i>
-				</button>
-				<a class="navbar-brand page-scroll" href="#page-top">
-					<i class="fa fa-cog fa-spin"></i> Alby Labs
-				</a>
-			</div> <!-- Page Logo -->
-			<!-- Collapse for mobile view -->
-			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-				<ul class="nav navbar-nav">
-					<li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-					<li>
-						<a class="page-scroll" href="#about">About</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#projects">Projects</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div> <!-- /collapsed-navbar -->
-		</div> <!-- /container -->
-	</nav>
-
-	<!-- Intro -->
-	<header class="intro">
-		<div class="intro-body">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<h1 class="header-name">Albert Chen</h1>
-						<p class="intro-text">Vagabond, Electrical Engineering,<br>University of California, Los Angeles 2014.<br>Currently located in Hangzhou, China
-						</p>
-						<a href="#about" class="btn btn-circle page-scroll">
-							<i class="fa fa-angle-double-down animated"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<!-- About Section -->
-	<section id="about" class="container content-section text-center">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-							<img src="img/avatar.jpg" class="img-circle avatar"
-							width="200" height="200" alt="that's me!">
-				<h2>A bit about me:</h2>
-				<p>Originally from the Palo Alto, CA in the heart of the Silicon Valley, I moved to Los Angeles to study Electrical Engineering at UCLA. After graduation, I worked at SanDisk Corp. as a Product Engineer on the Inifiniflash Enterprise Solution.</p>
-				<p>One day I woke up and decided that the world was too big to not step outside and explore a little. I left my position and moved to China to start my own startup, bringing my technology and product experience.</p>
-				<p>Outside of all that boring engineering stuff, I enjoy the following:
-					<br>Photography (<a href="http://photographicloyalty.tumblr.com" target="_blank">tumblr here</a>)
-					<br>Homebrewing (Yuan-Chen Brewery)
-					<br>My Soundcloud (on those <a href="https://soundcloud.com/albychen5" target="_blank">remixes</a>)
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- Projects Section -->
-	<section id="projects" class="content-section text-center">
-		<div class="projects-section">
-			<div class="container">
-				<h2>Personal Projects</h2>
-				<div class="row">
-					<div class="project-desc col-md-4">
-						<h4>Atmu</h4>
-						<p>Revolutionize your parties.</p>
-					</div>
-					<div class="project-desc col-md-4">
-						<h4>Backdoor Bandits</h4>
-						<p>Instant secure access for any door.</p>
-					</div>
-					<div class="project-desc col-md-4">
-						<h4>Get Lit</h4>
-						<p>A new way to visualize your music.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Contact Section -->
-	<section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p class="weixin-title"><i class="fa fa-weixin"></i> WeChat: albychen5</p>
-                <p><a href="mailto:albert.chen10@gmail.com">albert.chen10 [at] gmail.com</a></p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://medium.com/@albychen5" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-medium"></i> <span class="network-name">Medium</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/albychen5" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/albertchen50" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin-square">
-                        </i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-	<!-- footer starts here -->
-	<footer>
-		<div class="container text-center">
-			<p>I like turtles. Made in Hangzhou, China. Updated March 2016</p>
-		</div>
-	</footer>
-
-	<!-- Linking JS  -->
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-  <!-- Bootstrap Required JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- jQuery Easing Plugin -->
-  <script src="js/jquery.easing.min.js"></script>
-  <!-- My own custom JS -->
-  <script src="js/alby.js"></script> 
-
+    <ul>
+      <li>
+        <a href="http://www.instagram.com/albychen5" target="_blank">
+          Instagram
+        </a>
+      </li>
+      <li>
+        <a href="https://medium.com/@albychen5" target="_blank">
+          Medium
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/albertchen50/" target="_blank">
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        -
+      </li>
+      <li>
+        <a href="https://gabriel-glasinternational.com/product/two-glass-gift-box-gold-edition-mouth-blown/" target="_blank">
+          Albyglas Collection
+        </a>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
+
+<!-- website layout borrowed from Steven La -->
